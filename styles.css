@@ -7,9 +7,17 @@ table {
     border: 1px solid black;
   }
 
+  table {
+    width: 80%; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Isso centralizará a tabela */
+    border-collapse: collapse;
+}
+
   th, td {
-    padding: 8px;
-    text-align: left;
+    padding: 10px;
+    text-align: center;
+    max-width: 200px; /* Ajuste conforme necessário */
+    overflow: hidden;
   }
 
   h3 {
@@ -17,5 +25,14 @@ table {
   }
 
 body{
-    background-color: rgb(231, 231, 226);
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black; /* Ajuste a largura da borda conforme necessário */
+    margin: 20px; /* Ajuste a margem para garantir que a borda não esteja muito próxima do conteúdo */
+    box-sizing: border-box; /* Garante que a largura e altura incluam a borda e o preenchimento */
+    text-align: center;
+}
+
+h1, h2, h3, h5, h4 {
+  margin-left: 40px;
+  margin-right: 40px;
 }
